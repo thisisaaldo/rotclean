@@ -1,112 +1,587 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-AU">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>" />
-		<meta name="generator" content="Hostinger Horizons" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-		<!-- Primary Meta Tags -->
-		<title>Melbourne's #1 Window Cleaning Service - RotClean | Professional Window Cleaners</title>
-		<meta name="title" content="Melbourne's #1 Window Cleaning Service - RotClean | Professional Window Cleaners" />
-		<meta name="description" content="Get crystal-clear, streak-free windows for your home or business in Melbourne. RotClean offers professional window cleaning services with instant online quotes. Fully insured, Melbourne-wide service. Call 0493105484 or email info@rotclean.com" />
-		<meta name="keywords" content="window cleaning Melbourne, professional window cleaners, residential window cleaning, commercial window cleaning, Melbourne window cleaning service, RotClean, window cleaning quotes, streak-free windows, eco-friendly cleaning" />
-		<meta name="author" content="RotClean Melbourne" />
-		<meta name="robots" content="index, follow" />
-		<meta name="language" content="English" />
-		<meta name="revisit-after" content="7 days" />
-		
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://rotclean.com.au/" />
-		<meta property="og:title" content="Melbourne's #1 Window Cleaning Service - RotClean" />
-		<meta property="og:description" content="Professional window cleaning services in Melbourne. Get instant quotes, streak-free results, and Melbourne-wide service. Fully insured and eco-friendly." />
-		<meta property="og:image" content="https://rotclean.com.au/og-image.jpg" />
-		<meta property="og:site_name" content="RotClean Melbourne" />
-		<meta property="og:locale" content="en_AU" />
-		
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://rotclean.com.au/" />
-		<meta property="twitter:title" content="Melbourne's #1 Window Cleaning Service - RotClean" />
-		<meta property="twitter:description" content="Professional window cleaning services in Melbourne. Get instant quotes, streak-free results, and Melbourne-wide service." />
-		<meta property="twitter:image" content="https://rotclean.com.au/twitter-image.jpg" />
-		
-		<!-- Additional SEO Meta Tags -->
-		<meta name="geo.region" content="AU-VIC" />
-		<meta name="geo.placename" content="Melbourne" />
-		<meta name="geo.position" content="-37.8136;144.9631" />
-		<meta name="ICBM" content="-37.8136, 144.9631" />
-		
-		<!-- Canonical URL -->
-		<link rel="canonical" href="https://rotclean.com.au/" />
-		
-		<!-- Structured Data -->
-		<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "LocalBusiness",
-			"name": "RotClean Melbourne",
-			"description": "Professional window cleaning services in Melbourne. We provide crystal-clear, streak-free windows for residential and commercial properties.",
-			"url": "https://rotclean.com.au",
-			"telephone": "0493105484",
-			"email": "info@rotclean.com",
-			"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Melbourne",
-				"addressRegion": "VIC",
-				"addressCountry": "AU"
-			},
-			"geo": {
-				"@type": "GeoCoordinates",
-				"latitude": "-37.8136",
-				"longitude": "144.9631"
-			},
-			"areaServed": {
-				"@type": "City",
-				"name": "Melbourne"
-			},
-			"serviceType": "Window Cleaning Service",
-			"priceRange": "$$",
-			"openingHours": "Mo-Su 08:00-18:00",
-			"image": "https://rotclean.com.au/logo.jpg",
-			"logo": "https://rotclean.com.au/logo.jpg",
-			"sameAs": [
-				"https://www.facebook.com/rotcleanmelbourne",
-				"https://www.instagram.com/rotcleanmelbourne"
-			],
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "4.9",
-				"reviewCount": "500"
-			},
-			"hasOfferCatalog": {
-				"@type": "OfferCatalog",
-				"name": "Window Cleaning Services",
-				"itemListElement": [
-					{
-						"@type": "Offer",
-						"itemOffered": {
-							"@type": "Service",
-							"name": "Residential Window Cleaning",
-							"description": "Professional window cleaning for homes"
-						}
-					},
-					{
-						"@type": "Offer",
-						"itemOffered": {
-							"@type": "Service",
-							"name": "Commercial Window Cleaning",
-							"description": "Professional window cleaning for businesses"
-						}
-					}
-				]
-			}
-		}
-		</script>
-	</head>
-	<body>
-		<div id="root"></div>
-		<script type="module" src="/src/main.jsx"></script>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melbourne's #1 Window Cleaning Service - RotClean</title>
+    <meta name="description" content="Get crystal-clear, streak-free windows for your home or business in Melbourne. RotClean offers professional window cleaning services with instant online quotes. Fully insured, Melbourne-wide service. Call 0493105484 or email info@rotclean.com">
+    <meta name="keywords" content="window cleaning Melbourne, professional window cleaners, residential window cleaning, commercial window cleaning, Melbourne window cleaning service, RotClean, window cleaning quotes, streak-free windows, eco-friendly cleaning">
+    <meta name="author" content="RotClean Melbourne">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" onclick="scrollToSection('home')">
+                    <span class="logo-icon">🐾</span>
+                    <span class="logo-text">RotClean</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <button onclick="scrollToSection('home')" class="nav-link">Home</button>
+                    <button onclick="scrollToSection('services')" class="nav-link">Services</button>
+                    <button onclick="scrollToSection('quote')" class="nav-link">Get Quote</button>
+                    <button onclick="scrollToSection('about')" class="nav-link">About</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">Contact</button>
+                </nav>
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>0493105484</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>info@rotclean.com</span>
+                    </div>
+                    <button onclick="scrollToSection('quote')" class="btn btn-primary">Get Quote</button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="menu-icon">☰</span>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <nav class="nav-mobile">
+                    <button onclick="scrollToSection('home')" class="nav-link">Home</button>
+                    <button onclick="scrollToSection('services')" class="nav-link">Services</button>
+                    <button onclick="scrollToSection('quote')" class="nav-link">Get Quote</button>
+                    <button onclick="scrollToSection('about')" class="nav-link">About</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">Contact</button>
+                    <div class="mobile-contact">
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>0493105484</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span>info@rotclean.com</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-icon">✨</span>
+                        <span>Melbourne's #1 Window Cleaning Service</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Professional Window Cleaning 
+                        <span class="gradient-text">in Melbourne</span>
+                        <span class="hero-subtitle">Residential & Commercial Services</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Melbourne's trusted window cleaning experts. Get instant online quotes, eco-friendly cleaning solutions, and streak-free results for your home or business. Fully insured and Melbourne-wide service.
+                    </p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✅</span>
+                            <span>Instant Online Quotes</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✅</span>
+                            <span>Melbourne-Wide Service</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✅</span>
+                            <span>Fully Insured & Licensed</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✅</span>
+                            <span>Eco-Friendly Cleaning</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <button onclick="scrollToSection('quote')" class="btn btn-primary btn-large">Get Instant Quote</button>
+                        <button onclick="window.location.href='tel:0493105484'" class="btn btn-outline btn-large">Call 0493105484</button>
+                    </div>
+                    
+                    <div class="social-proof">
+                        <div class="stars">
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                        </div>
+                        <div class="rating-text">
+                            <span class="rating-score">4.9/5</span> from 500+ Melbourne reviews
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="dog-container">
+                        <img src="https://horizons-cdn.hostinger.com/8f6778b3-225d-42e3-bca8-45e5960f8d2a/chatgpt-image-sep-16-2025-07_20_06-pm-JuVTp.png" alt="Friendly dog mascot for a Melbourne window cleaning service" class="dog-image">
+                        <div class="speech-bubble" id="speechBubble">
+                            <p class="speech-text" id="speechText">G'day, my name is Rot!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Melbourne Services</h2>
+                <p class="section-description">Professional window cleaning solutions for every property type</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3 class="service-title">Residential Windows</h3>
+                    <p class="service-description">Crystal-clear windows for your Melbourne home. From single-story houses to multi-level properties.</p>
+                    <div class="service-price">From $89</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3 class="service-title">Commercial Buildings</h3>
+                    <p class="service-description">Professional window cleaning for offices, retail spaces, and commercial properties across Melbourne.</p>
+                    <div class="service-price">From $149</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔨</div>
+                    <h3 class="service-title">Post-Construction</h3>
+                    <p class="service-description">Specialized cleaning for new builds and renovations. Removing construction debris and residue.</p>
+                    <div class="service-price">From $149</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Calculator Section -->
+    <section id="quote" class="quote-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get Your Instant Quote</h2>
+                <p class="section-description">Quick and easy quote calculator for Melbourne window cleaning services</p>
+            </div>
+            
+            <div class="quote-content">
+                <div class="quote-form-container">
+                    <div class="quote-form" id="quoteForm">
+                        <div class="form-step active" id="step1">
+                            <h3 class="form-title">Property Details</h3>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Property Type</label>
+                                <div class="property-types">
+                                    <button class="property-type-btn active" data-type="residential" onclick="selectPropertyType('residential')">
+                                        <span class="property-icon">🏠</span>
+                                        <span class="property-name">Residential</span>
+                                        <span class="property-price">$89 - $299</span>
+                                    </button>
+                                    <button class="property-type-btn" data-type="commercial" onclick="selectPropertyType('commercial')">
+                                        <span class="property-icon">🏢</span>
+                                        <span class="property-name">Commercial</span>
+                                        <span class="property-price">$149 - $499</span>
+                                    </button>
+                                    <button class="property-type-btn" data-type="post-construction" onclick="selectPropertyType('post-construction')">
+                                        <span class="property-icon">🔨</span>
+                                        <span class="property-name">Post-Construction</span>
+                                        <span class="property-price">$149 - $499</span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Number of Windows</label>
+                                <input type="number" class="form-input" id="windowsInput" value="10" min="1" max="100">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Number of Floors</label>
+                                <input type="number" class="form-input" id="floorsInput" value="1" min="1" max="10">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Service Frequency</label>
+                                <div class="frequency-options">
+                                    <button class="frequency-btn active" data-frequency="one-time" onclick="selectFrequency('one-time')">One-time</button>
+                                    <button class="frequency-btn" data-frequency="monthly" onclick="selectFrequency('monthly')">Monthly</button>
+                                    <button class="frequency-btn" data-frequency="bi-monthly" onclick="selectFrequency('bi-monthly')">Bi-monthly</button>
+                                    <button class="frequency-btn" data-frequency="quarterly" onclick="selectFrequency('quarterly')">Quarterly</button>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label">Extra Services</label>
+                                <div class="extra-services">
+                                    <label class="extra-service">
+                                        <input type="checkbox" id="screens" onchange="toggleExtraService('screens')">
+                                        <span class="checkmark"></span>
+                                        <span class="service-name">Screen Cleaning</span>
+                                    </label>
+                                    <label class="extra-service">
+                                        <input type="checkbox" id="sills" onchange="toggleExtraService('sills')">
+                                        <span class="checkmark"></span>
+                                        <span class="service-name">Window Sill Cleaning</span>
+                                    </label>
+                                    <label class="extra-service">
+                                        <input type="checkbox" id="tracks" onchange="toggleExtraService('tracks')">
+                                        <span class="checkmark"></span>
+                                        <span class="service-name">Track Cleaning</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <button onclick="calculateQuote()" class="btn btn-primary btn-large btn-full">
+                                <span class="btn-icon">🧮</span>
+                                Get Instant Quote
+                            </button>
+                        </div>
+                        
+                        <div class="form-step" id="step2">
+                            <div class="quote-result">
+                                <h3 class="quote-title">Your Melbourne Quote</h3>
+                                <div class="quote-price">
+                                    <span class="price-label">Rough Estimate</span>
+                                    <span class="price-range" id="priceRange">$89 - $299</span>
+                                </div>
+                                <p class="quote-note">
+                                    This is a rough estimate range. A final quote will be provided after an on-site inspection.
+                                </p>
+                                
+                                <div class="booking-form">
+                                    <h4 class="booking-title">Book Your Service</h4>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" class="form-input" id="customerName" placeholder="Enter your full name">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label">Email Address</label>
+                                        <input type="email" class="form-input" id="customerEmail" placeholder="Enter your email">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-input" id="customerPhone" placeholder="Enter your phone number">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label">Property Address</label>
+                                        <input type="text" class="form-input" id="customerAddress" placeholder="Enter your Melbourne address">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label">Preferred Date</label>
+                                        <input type="date" class="form-input" id="preferredDate">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label">Additional Notes</label>
+                                        <textarea class="form-textarea" id="additionalNotes" placeholder="Any special requirements or notes..."></textarea>
+                                    </div>
+                                    
+                                    <div class="form-buttons">
+                                        <button onclick="goBackToQuote()" class="btn btn-outline">Back to Quote</button>
+                                        <button onclick="bookService()" class="btn btn-success">
+                                            <span class="btn-icon">📅</span>
+                                            Book Service
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="booking-note">
+                                        <p>No hidden fees. Cancel anytime. Fully insured.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-benefits">
+                    <h3 class="benefits-title">Why Choose RotClean?</h3>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">⚡</span>
+                            <div class="benefit-content">
+                                <h4 class="benefit-title">Instant Quotes</h4>
+                                <p class="benefit-description">Get your quote in seconds, not days</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🛡️</span>
+                            <div class="benefit-content">
+                                <h4 class="benefit-title">Fully Insured</h4>
+                                <p class="benefit-description">Complete peace of mind with full insurance coverage</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🌱</span>
+                            <div class="benefit-content">
+                                <h4 class="benefit-title">Eco-Friendly</h4>
+                                <p class="benefit-description">Safe for your family and the environment</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <span class="benefit-icon">⭐</span>
+                            <div class="benefit-content">
+                                <h4 class="benefit-title">5-Star Service</h4>
+                                <p class="benefit-description">Rated 4.9/5 by 500+ Melbourne customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefits-image">
+                        <img src="https://horizons-cdn.hostinger.com/8f6778b3-225d-42e3-bca8-45e5960f8d2a/window-wdYh4.png" alt="Before and after comparison of a dirty and clean window in a Melbourne home" class="benefits-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Melbourne's Choice: <span class="gradient-text">RotClean</span></h2>
+                    <p class="about-description">
+                        Founded in 2015, RotClean Windows has been the trusted choice for professional window cleaning services in Melbourne. We combine traditional craftsmanship with modern technology to deliver exceptional results.
+                    </p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4.9</div>
+                            <div class="stat-label">Average Rating</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Insured & Licensed</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-images">
+                    <div class="image-grid">
+                        <img src="https://images.unsplash.com/photo-1561114601-5c8f97072146" alt="Professional window cleaning team posing in Melbourne" class="about-img">
+                        <img src="https://images.unsplash.com/photo-1642764732251-9dacf60eb423" alt="Window cleaning equipment and eco-friendly solutions" class="about-img">
+                        <img src="https://images.unsplash.com/photo-1702264955697-8239bcde88f1" alt="Clean office building windows in Melbourne CBD" class="about-img">
+                        <img src="https://images.unsplash.com/photo-1692690135399-abf8d0d102ce" alt="A residential house in a Melbourne suburb with perfectly clean windows" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Ready to get your windows sparkling clean? Contact us today!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4 class="contact-title">Call Us</h4>
+                            <p class="contact-text">0493105484</p>
+                            <p class="contact-subtitle">Mon-Sun 8AM-6PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4 class="contact-title">Email Us</h4>
+                            <p class="contact-text">info@rotclean.com</p>
+                            <p class="contact-subtitle">We reply within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4 class="contact-title">Service Area</h4>
+                            <p class="contact-text">Greater Melbourne Area</p>
+                            <p class="contact-subtitle">All suburbs covered</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h4 class="contact-title">Business Hours</h4>
+                            <p class="contact-text">Monday - Sunday</p>
+                            <p class="contact-subtitle">8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 class="form-title">Send Us a Message</h3>
+                    <form id="contactForm" onsubmit="submitContactForm(event)">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-input" id="contactName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-input" id="contactEmail" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-input" id="contactPhone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Service Type</label>
+                            <select class="form-select" id="contactService">
+                                <option value="residential">Residential Windows</option>
+                                <option value="commercial">Commercial Windows</option>
+                                <option value="post-construction">Post-Construction</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-textarea" id="contactMessage" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large btn-full">
+                            <span class="btn-icon">📤</span>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">🐾</div>
+                        <span class="logo-text">RotClean</span>
+                    </div>
+                    <p class="footer-description">
+                        Melbourne's trusted professional window cleaning service for residential and commercial properties.
+                    </p>
+                    <div class="social-links">
+                        <button class="social-btn" onclick="showNotImplemented()">
+                            <span class="social-icon">📘</span>
+                        </button>
+                        <button class="social-btn" onclick="showNotImplemented()">
+                            <span class="social-icon">📷</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <div class="footer-links">
+                        <button onclick="scrollToSection('home')" class="footer-link">Home</button>
+                        <button onclick="scrollToSection('services')" class="footer-link">Services</button>
+                        <button onclick="scrollToSection('quote')" class="footer-link">Get Quote</button>
+                        <button onclick="scrollToSection('about')" class="footer-link">About Us</button>
+                        <button onclick="scrollToSection('contact')" class="footer-link">Contact</button>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Melbourne Services</h4>
+                    <div class="footer-services">
+                        <p>Residential Windows</p>
+                        <p>Commercial Buildings</p>
+                        <p>Post-Construction Cleanup</p>
+                        <p>Screen Cleaning</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>0493105484</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span>info@rotclean.com</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Greater Melbourne Area</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 RotClean Melbourne. All rights reserved.
+                </p>
+                <div class="footer-legal">
+                    <button onclick="showNotImplemented()" class="footer-legal-link">Privacy Policy</button>
+                    <button onclick="showNotImplemented()" class="footer-legal-link">Terms of Service</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <span class="toast-icon">ℹ️</span>
+            <span class="toast-message" id="toastMessage">Message</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
